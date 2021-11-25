@@ -36,19 +36,20 @@ class BasicArray {
             }
 
             System.out.println("Mostrando o array com o loop");
-            for (int j = 0; i < n; j++)
-                ;
+            for (int j = 0; j < n; j++);
+                
 
             System.out.println("\t" + array_input[i]);
             input.close();
         }
 
-        // Receebendo array como parametro
+        // Recebendo array como parametro
 
         System.out.println("Recebendo o array como parametro");
-        for (int i = 0; i < arr.length; i++)
-            ;
+        for (int i = 0; i < arr.length; i++);
+            
 
+        int i;
         System.out.println(arr[i]);
 
         System.out.println();
